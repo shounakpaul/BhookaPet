@@ -88,7 +88,7 @@ const DeliveryScreen = () => {
           className="h-12 w-12 bg-gray-300 p-4 rounded-full ml-5"
         />
         <View className="flex-1">
-          <Text className="text-lg">Jordan</Text>
+          <Text className="text-lg">Jeff</Text>
           <Text className="text-gray-400">Your Rider</Text>
         </View>
 

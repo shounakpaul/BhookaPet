@@ -10,7 +10,7 @@ export default defineConfig({
   name: 'default',
   title: 'ivory-beaver',
 
-  projectId: '1mr495v3',
+  projectId: '',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool(), ...(isDev ? devOnlyPlugins : [])],
@@ -19,4 +19,3 @@ export default defineConfig({
     types: schemaTypes,
   },
 })
-
