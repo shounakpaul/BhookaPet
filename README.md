@@ -23,7 +23,7 @@ This is a mobile application built with React Native for the Bhooka Pet food del
 
 1. Clone the repository:
 
-2. Install dependencies using npm or yarn:
+2. Install dependencies using npm.
 
 3. Start the development server:
 
