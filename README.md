@@ -44,12 +44,12 @@ Make sure to provide the necessary credentials for authentication and any API ke
 
 ## Tech Stack
 
-- React Native - JavaScript framework for building native mobile apps.
-- Expo - Development toolchain and platform for React Native apps.
-- Redux - State management library for predictable state updates.
-- Tailwind CSS - Utility-first CSS framework for rapid UI development.
-- React Native Maps - Integration with React Native Maps for location-based services.
-- Sanity - Content management and delivery network.
+- `React Native` - JavaScript framework for building native mobile apps.
+- `Expo` - Development toolchain and platform for React Native apps.
+- `Redux` - State management library for predictable state updates.
+- `Tailwind CSS` - Utility-first CSS framework for rapid UI development.
+- `React Native Maps` - Integration with React Native Maps for location-based services.
+- `Sanity` - Content management and delivery network.
 
 ## Contributing
 
