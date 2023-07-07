@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView } from "react-native";
+import { View, Text, SafeAreaView, TouchableOpacity } from "react-native";
 import React, { useEffect } from "react";
 import * as Animatable from "react-native-animatable";
 import * as Progress from "react-native-progress";
@@ -8,11 +8,11 @@ import AnimatedLottieView from "lottie-react-native";
 const PreparingOrderScreen = () => {
   const navigation = useNavigation();
 
-  useEffect(() => {
-    setTimeout(() => {
-      navigation.navigate("Delivery");
-    }, 15000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     navigation.navigate("Delivery");
+  //   }, 2000);
+  // }, []);
 
   return (
     <SafeAreaView className="bg-sky-50 flex-1 justify-center items-center">
@@ -33,6 +33,12 @@ const PreparingOrderScreen = () => {
       </Animatable.Text>
 
       <Progress.Circle size={60} indeterminate={true} color="#42adff" />
+      <TouchableOpacity
+        className="absolute bottom-2 bg-[#]"
+        onPress={() => navigation.navigate("Delivery")}
+      >
+        <Text className="text-gray-400 text-center">Go to Orders Page</Text>
+      </TouchableOpacity>
     </SafeAreaView>
   );
 };

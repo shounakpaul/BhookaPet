@@ -1,4 +1,8 @@
-import { StatusBar } from "expo-status-bar";
+import {
+  StatusBar,
+  setStatusBarBackgroundColor,
+  setStatusBarStyle,
+} from "expo-status-bar";
 import { NavigationContainer } from "@react-navigation/native";
 import { Text, View } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -15,6 +19,8 @@ import DeliveryScreen from "./screens/DeliveryScreen";
 const Stack = createNativeStackNavigator();
 
 function App() {
+  setStatusBarBackgroundColor("#42adff");
+  setStatusBarStyle("light");
   return (
     <NavigationContainer>
       <Provider store={store}>
