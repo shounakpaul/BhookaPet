@@ -40,7 +40,7 @@ Make sure to provide the necessary credentials for authentication and any API ke
 - `/assets` - Includes static assets such as images, fonts, etc.
 - `/components` - React components used throughout the app.
 - `/screens` - Main app screens and their associated components.
-- `/store` - Redux store configuration, actions, and reducers.
+- `/screens` - Redux store configuration, actions, and reducers.
 
 ## Tech Stack
 
