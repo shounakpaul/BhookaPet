@@ -4,7 +4,7 @@ This is a mobile application built with React Native for the Bhooka Pet food del
 
 ## Screenshots
 
-<div style={{ display: "flex" }}>
+<!-- <div style={{ display: "flex" }}>
   <img
     style={{ height: "70vh", width: "auto", marginRight: "10px" }}
     src="./assets/readme/sc1.jpg"
@@ -25,7 +25,12 @@ This is a mobile application built with React Native for the Bhooka Pet food del
     src="./assets/readme/sc4.jpg"
     alt="Bhooka Pet Screenshot"
   />
-</div>
+</div> -->
+<!-- ![App Screenshot](./assets/readme/sc1.jpg) -->
+<img src="./assets/readme/sc1.jpg" width="200">
+<img src="./assets/readme/sc2.jpg" width="200">
+<img src="./assets/readme/sc3.jpg" width="200">
+<img src="./assets/readme/sc4.jpg" width="200">
 
 ## Features
 
