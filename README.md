@@ -54,4 +54,3 @@ Make sure to provide the necessary credentials for authentication and any API ke
 ## Contributing
 
 Contributions are welcome! If you find any issues or have ideas for new features, please open an issue or submit a pull request.
-avick is a very good programmer.
