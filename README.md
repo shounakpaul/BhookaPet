@@ -1,4 +1,4 @@
-# Bhooka Pet React Native App
+# Food Delivery App with React Native
 
 This is a mobile application built with React Native for the Bhooka Pet food delivery service. It utilizes Expo for easy development and deployment, Redux for state management, Tailwind CSS for styling, and Sanity for Content management.
 
@@ -13,11 +13,9 @@ This is a mobile application built with React Native for the Bhooka Pet food del
 
 ## Features
 
-- User registration and authentication
-- Browse and search for restaurants and menus
+- Browse restaurants and menus
 - Place orders and track delivery status
 - Integration with Maps for location-based services
-- Manage user profile and settings
 
 ## Installation
 
